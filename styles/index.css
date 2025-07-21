@@ -114,10 +114,15 @@ main > section{
     color: #FF900E;
     font-weight: 700;
 }
+.feature-title{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
 .features-description{
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: 32px;
+    margin-top: 0;
 }
 /* some facts related styles */
 .facts-container{
@@ -214,6 +219,20 @@ main > section{
 .feature-description{
     font-size: 1rem;
 }
+#experience-badge{
+   padding: 45px 42px;
+   border-radius: 8px;
+   margin-left: -100px;
+   margin-top: -100px;
+}
+#experience-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#experience-years{
+    font-size: 4.1rem;
+    font-size: 700;
+}
 /* Responsive media queries */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -229,6 +248,24 @@ main > section{
     }
     .our-features{
         margin-left: 20px;
+    }
+    .our-services{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .feature-card{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .services-title, .services-description{
+        width: auto;
+    }
+    .architect img{
+        margin: 10px auto;
+    }
+    #experience-badge{
+       margin-left: 0;
+       margin-top: 0;
     }
     .facts-container, .sponsor-companies{
         justify-items: center;
